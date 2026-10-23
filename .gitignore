@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated AgentCore deployment files and account-specific settings
+.bedrock_agentcore/
+.bedrock_agentcore.yaml
+.bedrock_agentcore.yml
+
+# Build artifacts and logs
+build/
+dist/
+*.egg-info/
+*.log
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
